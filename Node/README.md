@@ -26,7 +26,9 @@
 1. Connect your LoRa radio module to your Raspberry Pi via SPI.
 2. Open a terminal and navigate to the directory where **node.py** is located.
 3. Run the following command to start the script:
+```bash
     python3 node.py
+```
 4. The script will start running and will transmit sensor data to the central hub using the LoRa radio module.
 
 ## Configuration
