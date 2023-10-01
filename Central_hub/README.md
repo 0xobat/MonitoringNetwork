@@ -38,6 +38,23 @@ The central hub comprises several files and components that contribute to its fu
 - **node2.csv:** Similar to node1.csv, this file stores sensor log data, but for node 2.
 - **fault_log:** The fault log is a record of system faults and issues encountered, helping with troubleshooting and maintenance.
 
+## Configuration
+
+The `main.py` file can be configured by adjusting the following variables:
+
+- `sensor_type`: The type of sensor module being used. Currently, only the DHT22 temperature and humidity sensor is supported.
+- `sensor_pin`: The GPIO pin that the sensor module is connected to.
+- `data_file`: The name of the CSV file that sensor data will be stored in.
+
+## Dependencies
+
+The `main.py` file requires the following dependencies:
+
+- `Adafruit_rfm9x`: A Python library for controlling RFM9x LoRa radio modules, enabling long-range wireless communication.
+- `RPi.GPIO`: A Python library for controlling the GPIO pins on a Raspberry Pi. 
+- `Adafruit_ssd1306`:  A Python library for controlling SSD1306 OLED displays, allowing you to display graphics and text on OLED screens.
+- `PIL`:  A Python library for working with images, including opening, manipulating, and saving various image formats.
+
 ## Contributing
 
 If you'd like to contribute to the central hub, please follow these steps:
