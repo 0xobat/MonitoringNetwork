@@ -15,7 +15,7 @@
 - adafruit-circuitpython-rfm9x
 
 ## Installation
-1. Install Python 3 on your Raspberry Pi if it is not already installed.
+1. Install Python 3 on your Raspberry Pi, if it is not already installed.
 2. Install the required Python libraries by running the following command in your terminal:
 ```bash
     pip3 install RPi.GPIO spidev adafruit-circuitpython-rfm9x
